@@ -25,7 +25,7 @@ async function addBook(title, author, year, isComplete, coverFile) {
         id,
         title,
         author,
-        year,
+        year: Number(year),
         isComplete,
         coverUrl
     };
