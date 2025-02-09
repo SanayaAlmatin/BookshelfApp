@@ -1,38 +1,19 @@
-# Bookshelf App Starter Project
+# Bookshelf App Untuk Submission Kelas Belajar Membuat Front-End Web untuk Pemula, MSIB Dicoding
 
-Ini adalah starter project untuk siswa yang sedang mengerjakan tugas akhir kelas Belajar Membuat Front-End Web untuk Pemula.
+## Informasi Project
+**Judul Project:** Bookshelf App  
 
-## Ketentuan Pengerjaan Tugas
+**Fitur:**  
+- Terdapat dua rak buku untuk buku yang sudah selesai atau belum selesai dibaca.  
+- Formulir untuk mengisikan informasi buku berupa judul, tahun terbit, penulis, dan gambar sampul buku.  
 
-Untuk mempermudah penilaian submission yang dikirim, Anda perlu memahami ketentuan-ketentuan berikut dalam mengerjakan tugas ini.
+**Keunggulan:**  
+- Tampilan yang responsif dan mampu beradaptasi dengan berbagai ukuran layar.  
+- Menggunakan teknologi front-end populer, yaitu Bootstrap 5.3.  
+- Memiliki animasi pada formulir.  
+- Menggunakan tema warna Dracula yang ramah digunakan di tempat redup cahaya.  
+- Data buku mampu disimpan sehingga riwayat buku tidak hilang dengan memanfaatkan local storage.  
 
-- Anda dilarang mengedit atau menghapus atribut `data-testid` pada elemen-elemen HTML.
-- Ini masih berkaitan dengan poin sebelumnya. Jika Anda memiliki kebutuhan seperti styling elemen dan perlu menambahkan atribut seperti class, itu tidak dilarang selama atribut `data-testid` beserta nilainya tidak diubah atau dihapus.
-- Dalam menampilkan data-data buku, Anda wajib memberikan beberapa atribut pada setiap elemennya.
-
-  - `data-bookid`: menampung nilai ID masing-masing buku.
-  - `data-testid`: penanda jenis data buku yang ditampilkan. Berikut daftarnya.
-    - `bookItem`: elemen kontainer yang menampung data-data buku.
-    - `bookItemTitle`: judul buku
-    - `bookItemAuthor`: penulis buku
-    - `bookItemYear`: tahun rilis buku
-    - `bookItemIsCompleteButton`: tombol untuk mengubah kondisi buku dari “Belum selesai dibaca” menjadi “Selesai dibaca” atau sebaliknya.
-    - `bookItemDeleteButton`: tombol untuk menghapus buku.
-    - `bookItemEditButton`: tombol untuk mengubah data buku.
-
-  Agar pengerjaan tugas lebih mudah, Anda dapat mengikuti templat buku berikut.
-
-```html
-<div data-bookid="{{ ID_buku }}" data-testid="bookItem">
-  <h3 data-testid="bookItemTitle">{{ judul_buku }}</h3>
-  <p data-testid="bookItemAuthor">Penulis: {{ penulis_buku }}</p>
-  <p data-testid="bookItemYear">Tahun: {{ tahun_rilis_buku }}</p>
-  <div>
-    <button data-testid="bookItemIsCompleteButton">{{ tombol_untuk_ubah_kondisi }}</button>
-    <button data-testid="bookItemDeleteButton">{{ tombol_untuk_hapus }}</button>
-    <button data-testid="bookItemEditButton">{{ tombol_untuk_edit }}</button>
-  </div>
-</div>
-```
-
-Selamat mengerjakan dan sukses selalu!
+## Deskripsi  
+Project **Bookshelf App** ini menggunakan teknologi terkini dalam proses development-nya. Aplikasi ini dibangun di atas **Bootstrap 5.3**, sehingga responsivitasnya tidak diragukan lagi.  
+Project ini dibuat untuk menyelesaikan submission **Kelas Belajar Membuat Front-End Web untuk Pemula** pada program **MSIB Batch 7 Dicoding**. Tujuan utama aplikasi ini adalah sebagai media pencatatan buku—baik yang sedang dibaca maupun yang sudah selesai—agar pengguna dapat dengan mudah menelusuri koleksi buku pribadinya.
